@@ -4,14 +4,19 @@
 
 ### Prepare The Code
 
-Forking allows to backport improvements of the setup over time. It is also possible to just download
-a zip file of the repository or just clone this repository (not recommended).
-
+#### Recommended method:
 - Fork this repository and give it a name, we will refer to it as `<plugin-name>`
+- Use the GitHub template to create a new repository, we will refer to it as `<plugin-name>`
+
+#### Set the variables
 - Set the name to `<plugin-name>` in [`settings.gradle.kts`](./settings.gradle.kts)
 - Set the name in [`build.gradle.kts`](./build.gradle.kts), we will refer to it as `<group-name>`
 - Verify that the server version in `build.gradle.kts` matches the one of your client
 - Create a new package in `src/main/java` named `<group-name>`
+
+#### Alternative methods:
+- Download zip file
+- Clone this repository (not recommended)
 
 ### Set Up The Dev Server
 
